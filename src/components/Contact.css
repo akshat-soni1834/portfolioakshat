@@ -1,0 +1,61 @@
+/* Custom styles for the Contact component */
+
+.contact-container {
+    padding: 40px;
+    background-color: #252525;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .logo1
+  {
+      color: black;
+      font-size: 40px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      margin-left: 120px;
+      margin-top: -40px;
+  }
+
+  h2 {
+    color: #3498db;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    background-image : linear-gradient(to bottom right, rgb(255, 22, 22), rgb(255, 242, 0));
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin: 0 10px;
+    color: #d2d2d2;
+    
+  }
+
+  .icon:hover {
+    color: #ff4d4d;
+    
+  }
+
+  
+  /* Adjust styling based on your design preferences */
+  

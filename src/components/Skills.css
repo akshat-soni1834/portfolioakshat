@@ -1,0 +1,24 @@
+.skill-item {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .progress-bar-container {
+    background-color: #e0e0e0;
+    height: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-image : linear-gradient(to bottom right, rgb(255, 22, 22), rgb(255, 242, 0));
+  }
+  
+  .skn
+  {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }

@@ -1,0 +1,96 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: rgb(64, 64, 64);
+  color: #333;
+  padding-top: 80px; /* Adjust the value based on your header height */
+  
+}
+
+/* Basic styling for the header/navigation */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111111;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 1000; /* Ensure the header stays on top of other elements */
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10px 10px;
+  width: 100px;
+  /* text-align: center; */
+  height: 32px;
+  background-color: white;
+  border-radius: 30px;
+  
+}
+
+nav li:hover
+{
+  transform: scale(1.2);
+  background-image : linear-gradient(to bottom right, rgb(255, 22, 22), rgb(255, 242, 0));
+
+}
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+  
+}
+
+/* nav a:hover {
+  color: #000000;
+  background-color: #fff;
+} */
+
+/* Styling for individual sections */
+section {
+  padding: 40px 0;
+  background-color: #fff;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+/* Additional styling for specific elements if needed */
+
+button
+{
+  border: 3px;
+  border-color: #fff;
+  border-width: 10px;
+  cursor: pointer;
+  background-image : linear-gradient(to bottom right, rgb(255, 22, 22), rgb(255, 242, 0));
+}
+
+p
+{
+  color: #fff;
+}

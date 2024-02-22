@@ -1,0 +1,57 @@
+/* Custom styles for the Home component */
+
+.home-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  /* color: #fff; */
+  background-image: url('../images/Screenshot\ 2024-02-20\ 115539.png');
+  height: 800px; /* Set your fixed height for the section */
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.text-container {
+  margin-left: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Text shadow for better visibility */
+}
+
+h1 {
+  font-size: 2em;
+  color: antiquewhite;
+}
+
+.dynamic-text
+{
+  font-size: 40px;
+
+}
+
+.dynamic-text span {
+  font-size: 70px;
+  font-weight: bold;
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  /* padding-left: 20px; */
+  font-size: 50px;
+}
+
+.fn span
+{
+  font-size: 100px;
+}
